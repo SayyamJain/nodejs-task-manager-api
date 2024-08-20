@@ -8,7 +8,7 @@ mongoose
     useFindAndModify: false,
   })
   .then(() => {
-    console.log("Connected to MongoDB");
+    // console.log("Connected to MongoDB");
   })
   .catch((error) => {
     console.log("Error conecting to MongoDB:", error);
